@@ -41,3 +41,38 @@ git commit -m "your message"
 - A branch is a timeline of work
 - main (or master) is the default branch
 - Staging area = "What I'm preparing to commit"
+
+### Things I'm still confused about:
+
+--When to use `checkout` vs `switch`
+
+- `switch` and `restore` are newer, but `checout` still works
+
+- some tutorials mix them up
+
+* Merge vs Rebase
+
+- What's the practical difference?
+- When should I rebase instead of merge?
+
+HEAD Pointer
+
+- I get that it points to where I am ..but how does it move exactly
+
+* U ndoing Mistakes
+
+- git revert vs git reset
+- Hard reset vs soft reset
+- Which one is safe?
+
+-- Tracking Remote Branches
+
+- Why do I sometimes nee `-u` with `git push`?
+
+Commands I want to practice
+
+`git merge`
+`git rebase`
+`git reset --soft, --mixed, --hard`
+`git stash`
+`git log --oneline --graph --decorate`
